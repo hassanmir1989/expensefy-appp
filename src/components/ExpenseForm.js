@@ -22,6 +22,7 @@ class ExpenseForm extends React.Component{
             note:props.note ? props.note : "",
             amount:props.amount ? props.amount : "",
             createdAt:props.createdAt ? props.createdAt : moment(),
+            // createdAt:props.createdAt ? props.createdAt : 0,
             focusedCalender:false,
             error:""
         }

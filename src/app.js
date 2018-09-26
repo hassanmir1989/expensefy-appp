@@ -6,8 +6,12 @@ import "normalize.css/normalize.css"
 import AppRouter from './routers/AppRouter'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/style.scss'
-
+import './firebase/firebase'
+import moment from 'moment'
 const store = configureStore()
+
+const newTime = moment().valueOf()
+
 
 
 const jsx = (
